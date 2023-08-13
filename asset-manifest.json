@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/attendance-leave-calculator/static/css/main.7f3e3447.css",
+    "main.js": "/attendance-leave-calculator/static/js/main.391c838e.js",
+    "static/js/787.10e7632a.chunk.js": "/attendance-leave-calculator/static/js/787.10e7632a.chunk.js",
+    "index.html": "/attendance-leave-calculator/index.html",
+    "main.7f3e3447.css.map": "/attendance-leave-calculator/static/css/main.7f3e3447.css.map",
+    "main.391c838e.js.map": "/attendance-leave-calculator/static/js/main.391c838e.js.map",
+    "787.10e7632a.chunk.js.map": "/attendance-leave-calculator/static/js/787.10e7632a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f3e3447.css",
+    "static/js/main.391c838e.js"
+  ]
+}
