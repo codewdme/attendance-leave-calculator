@@ -48,7 +48,7 @@ const Result = (props) => {
           <button
             type="submit"
             onClick={props.toggle}
-            className="bg-cyan-500 hover:bg-cyan-600 hover:text-white rounded-lg text-black p-2 mt-2"
+            className="flex items-center justify-center h-[7rem] p-6  bg-blue-200 rounded-xl cursor-pointer  hover:scale-105 transition hover:ease-in-out shadow-lg border-2 border-white hover:border-black "
           >
             Dismiss
           </button>
@@ -77,7 +77,7 @@ const Result = (props) => {
           <button
             type="submit"
             onClick={props.toggle}
-            className="bg-cyan-500 hover:bg-cyan-600 hover:text-white rounded-lg text-black p-2 mt-2"
+            className="p-2 px-4 transition hover:ease-in-out text-black border-2 border-white hover:border-black shadow-lg hover:scale-105 rounded-md flex items-center "
           >
             Dismiss
           </button>

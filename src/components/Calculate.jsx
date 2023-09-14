@@ -1,25 +1,24 @@
 import React, { useState } from "react";
-import Result from "./Result";
 
 const Calculate = (props) => {
   console.log(props);
   return (
-    <div className={props.show ? "hidden" : ""}>
+    <div className={`${props.show ? "hidden" : ""}  `}>
       <div className=" w-[100%]  calculate-card ">
-        <div className="text-black flex flex-col justify-center align-center mb-[3rem]">
+        <div className="text-black flex flex-col gap-6 justify-center align-center mb-[3rem]">
           <div className="text-[50px]">Attendance Calculator</div>
-          <form className="text-black flex flex-col justify-center align-center gap-2">
+          <form className="text-black flex flex-col gap-2 justify-center align-center ">
             <div>Total no. of classes</div>
-            <div>
-              <input
-                min="0"
-                onkeypress="return (event.charCode != 45 && event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
-                className="rounded-lg border-2 text-black p-2 w-full"
-                type="number"
-                name="totalClasses"
-                onChange={props.handleChange}
-              />
-            </div>
+
+            <input
+              min="0"
+              onkeypress="return (event.charCode != 45 && event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+              className="rounded-lg border-2 text-black p-2 w-full"
+              type="number"
+              name="totalClasses"
+              onChange={props.handleChange}
+            />
+
             <div>Total classes Attended</div>
             <input
               min="0"
@@ -33,7 +32,7 @@ const Calculate = (props) => {
             <button
               type="submit"
               onClick={props.handleSubmit}
-              className="bg-cyan-500 hover:bg-cyan-600 hover:text-white rounded-lg text-black p-2 mt-2"
+              className="flex items-center justify-center mt-10 p-2 rounded-xl cursor-pointer  hover:scale-105 transition hover:ease-in-out shadow-lg border-2 border-white hover:border-black "
             >
               Calculate
             </button>
